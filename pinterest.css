@@ -1,0 +1,265 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#footer{
+	position: absolute;
+	width: 100%;
+	height: 25px;
+	background-color: lightgrey;
+	margin-top: 780px;
+}
+#footer p {
+	display: inline-block;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+
+#button{
+ 	position: absolute;
+ 	border-radius: 4px;
+	height: 40px;
+	width: 140px; 
+	background-color: lightgrey;
+	left: 1275px;
+	margin-top: 25px;
+
+}
+#button p{
+	text-align: center;
+	color: #4d4d4d;
+	font-size: 20px;
+	margin-top: 10px;
+	font-family: 'Passion One', sans-serif;
+	letter-spacing: 1px;
+}
+
+
+ #box_background{
+ 	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-image: url("https://static.squarespace.com/static/5159d601e4b09e2ba0a45052/t/51607774e4b0715db61cd7a2/1365276532011/FreshProduce_WEB.jpg");
+	padding: 0px; 
+	margin: 0px;
+	filter: blur(3px);
+
+}
+ #box_inner{
+ 	position: absolute;
+ 	border-radius: 8px;
+	height: 533px;
+	width: 800px; 
+	background-color: #fff;
+	margin-left: 22%;
+	margin-top: 9%;
+	padding: 0px;
+}
+
+ #boxleft{
+ 	
+ 	position: absolute;  
+	height: 533px;
+	width: 400px;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 8px 0px 0px 8px;	
+}
+
+ #boxleft img{
+ 	
+ 	position: absolute;  
+	height: 100%;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 8px 0px 0px 8px;	
+}
+
+ #boxright{
+
+ 	position: absolute;
+	height: 533px;
+	width: 400px;
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+	left: 400px;
+	border-radius: 0px 8px 8px 0px;
+	filter: blur(0px);
+}
+#logo {
+	position: absolute;
+	height: 85px;
+	width: 400px;
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	left: 0px;
+	border-radius: 0px 8px 0px 0px;
+}
+#logo img{
+	position: absolute;
+	left: 45%;
+	height: 58px;
+	width: 58px;
+	top: 25px;	
+}
+
+#welcome{
+	position: absolute;
+	height: 85px;
+	width: 400px;
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+	top: 85px;
+	left: 0px;
+	letter-spacing: 1px;
+}
+#welcome p{
+	text-align: center;
+	color: #4d4d4d;
+	font-size: 28px;
+	font-family: 'Passion One', sans-serif;
+}
+#log_in {
+	position: absolute;
+	height: 300px;
+	width: 400px;
+	background-color: #fff;
+	top: 170px;
+}
+#email{
+	position: absolute;
+	left: 20%;
+	width: 230px;
+	height: 30px;
+	border-radius: 4px 4px 4px 4px;
+	font-family: sans-serif;
+	font-size: 12px; 
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-weight: none;
+	background-color: #f0f0f0;
+}
+#password{
+	position: absolute;
+	top: 15%;
+	left: 20%;
+	width: 230px;
+	height: 30px;
+	border-radius: 4px 4px 4px 4px;
+
+	font-family: sans-serif;
+	font-size: 12px; 
+	font-weight: bold;
+	letter-spacing: 1px;
+	background-color: #f0f0f0;
+}
+#continue{
+	position: absolute;
+	top: 30%;
+	left: 20%;
+	width: 234px;
+	height: 37px;
+	border-radius: 4px 4px 4px 4px;
+	font-family: 'Passion One', sans-serif;
+	font-size: 5px; 
+	font-weight: none;
+	background-color: #bd081c;
+	text-align: center;
+}
+#continue p{
+	text-align: center;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 15px;
+	font-family: sans-serif;
+}
+#or{
+	position: absolute;
+	top: 45%;
+	left: 20%;
+	width: 234px;
+	height: 33px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	
+}
+ #fb_box{
+ 	position: absolute;
+	top: 53%;
+	left: 20%;
+	width: 234px;
+	height: 37px;
+	background-color: #3B5998; 
+	border-radius: 4px 4px 4px 4px;
+	}
+	#fb_box p{
+	margin-left: 60px;
+	margin-top: 10px;
+	color: #fff;
+	font-size: 15px;
+	font-family: sans-serif;
+
+ }
+
+
+ #fb_logo{
+ 	 	position: absolute;
+	top: 6%;
+	left: 0%;
+	width: 50px;
+	height: 35px;
+	border-radius: 4px 4px 4px 4px;
+	
+	font-family: 'Passion One', sans-serif;
+	font-size: 20px; 
+	font-weight: none;
+	background-color: #bd081c;
+	text-align: center;
+	text-decoration-color: #f0f0f0;
+	z-index: 3;
+ }
+ #fb_button{
+ 	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	border-radius: 4px 4px 4px 4px;
+	font-family: 'Passion One', sans-serif;
+	font-size: 20px; 
+	font-weight: none;
+	background-color: #3B5998;
+ }
+
+  
