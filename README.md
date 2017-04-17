@@ -1,9 +1,3 @@
 # pinterest_demo
 A pinterest hack to demonstrate HTML/CSS skills
-Test test test
-
-h
-rh
-werh
-erg
-wegweg
+To see online <a href="file:///Users/karimshakir/Documents/html_projects/web-projects/pinterest_demo/pinterest.html">"Click Here!"</a>
